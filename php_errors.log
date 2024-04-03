@@ -1,0 +1,2 @@
+[03-Apr-2024 07:32:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd2' (tried: C:\app\phpstudy_pro\Extensions\php\php8.1.26nts\ext\gd2 (找不到指定的模块。), C:\app\phpstudy_pro\Extensions\php\php8.1.26nts\ext\php_gd2.dll (找不到指定的模块。)) in Unknown on line 0
+[03-Apr-2024 15:32:19 Asia/Shanghai] PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1808 but version 1809 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0

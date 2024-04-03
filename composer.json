@@ -1,0 +1,30 @@
+{
+    "name": "talktrue/laravel-quick-api",
+    "description": "The Laravel Quick Api.",
+    "license": "MIT",
+    "keywords": ["laravelApi"],
+    "autoload": {
+        "psr-4": {
+            "Talktrue\\LaravelQuickApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "timenow",
+            "email": "705219520@qq.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Talktrue\\LaravelQuickApi\\LaravelQuickApiServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Talktrue\\LaravelQuickApi\\Facade"
+            }
+        }
+    }
+}
